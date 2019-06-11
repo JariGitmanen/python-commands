@@ -7,5 +7,5 @@ while i<len(msg):
 		word=" "
 	else:
 		word=word+msg[i]
-	i=i+1
+	i=i-1
 print(word)

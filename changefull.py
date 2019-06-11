@@ -1,7 +1,7 @@
 Price = float(input("Enter price of product: £"))
 Money = float(input("Enter amount of cash given: £"))
 Change = (float(Money)-float(Price))
-print("Change due is: £",Change)
+print("Change due is: £",(Change))
 print("--------Breakdown--------")
 Fifty=Change // 50
 Twenty=Change % 50 // 20
